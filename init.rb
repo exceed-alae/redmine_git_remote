@@ -1,5 +1,5 @@
 require 'redmine'
-require_dependency "redmine_git_remote/repositories_helper_patch"
+# require_dependency "redmine_git_remote/repositories_helper_patch"
 
 Redmine::Scm::Base.add "GitRemote"
 
